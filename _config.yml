@@ -1,0 +1,100 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: 'Health Factory'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: Health Factory
+# Description of the Site
+description: "The pain you feel today will be the strength you feel tomorrow"
+# URL of Image of the Site
+site-image: https://mblogthumb-phinf.pstatic.net/MjAxNzAyMTVfMTU0/MDAxNDg3MTE5MTA5OTkz.2hWTH34O0HqPzd7e-eYKbOZYkQBRTZB5wmSERrf08usg.L6T_knOTaIPQiL91ZuvKSSxhiXUu9Y5z5_ZoXT7qeF4g.PNG.trainermin2/%EB%8B%A4%EC%B9%98%EC%A7%80%EC%95%8A%EA%B2%8C_%EC%8A%A4%EC%BF%BC%ED%8A%B8%ED%95%98%EC%9E%90.PNG?type=w800
+# Keywords of the Site
+site-keywords: Fitness, Exercise, Nutrition, Workout, Healthy eating, Balanced diet, Weight training, Body training
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://i.pinimg.com/originals/c1/e3/a2/c1e3a208645577429e6ae39664c09443.jpg
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: manssik0820@gmail.com
+facebook_username: profile.php?id=100008617216429
+twitter_username: /
+instagram_username: hs_bob99
+linkedin_username: /
+github_username:  bugrice
+youtube_channel_id: UCIqqIoeFufW61EP5Rw1FoBA
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: bugrice
+
+# Name of the Author
+author-name: bugrice
+# URL for the Image of the Author
+author-image: /assets/images/identity.jpg
+# 60 Words About the Author
+author-about1: "이름 : 정현식" 
+author-about2: "취미 : 운동, 코딩, 유튜브 시청, 게임"
+author-about3: 안녕하세요! 제 이름은 정현식이고 현재 목원대학교 컴퓨터공학과 4학년입니다! 
+author-about4: 운동경력은 3년정도이며 주 6일 2시간 ~ 3시간 헬스장에서 웨이트 트레이닝을 하고 있습니다! 운동에 관심이 있는 사람, 관심이 없는 사람, 이제 막 시작하려는 사람 등 많은 사람들이 건강하고 정확한 방법으로 몸 관리를 할 수 있도록 정보를 제공해주고 싶습니다!!
+author-about5: 아래의 "How To" 를 클릭하여 운동방법, 식단, 다이어트 방법등 다양한 정보를 확인하세요!!!
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/bugrice
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
